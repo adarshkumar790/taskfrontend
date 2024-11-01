@@ -33,7 +33,7 @@ const UserSettings = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <h2>User Settings</h2>
+            <h2>User Info Update</h2>
             <div>
                 <label>Name:</label>
                 <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
