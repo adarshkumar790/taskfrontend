@@ -1,0 +1,59 @@
+/* TaskItem.css */
+
+li {
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.task-title,
+.task-due-date,
+.task-status,
+.task-category,
+.task-checklist,
+.task-priority {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.task-title {
+    font-weight: bold;
+}
+
+.task-checklist {
+    font-style: italic;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 8px 12px;
+    margin: 10px 5px 0 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #4caf50; /* Green for edit */
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336; /* Red for delete */
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}

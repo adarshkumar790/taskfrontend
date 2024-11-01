@@ -1,0 +1,18 @@
+.allready {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #777; /* Subtle text color */
+}
+
+.allready a {
+    color: #5a9bf6; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: color 0.3s;
+}
+
+.allready a:hover {
+    color: #4a89e8; /* Link hover color */
+}
